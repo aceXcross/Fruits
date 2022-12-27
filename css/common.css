@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* img {
+    width: 100%;
+    display: block;
+} */
+
+.undotted {
+    list-style-type: none;
+}
+
+.hidden {
+    /* display: none; лучше не использовать, ломается доступность */
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    top: 0;
+    left: 0;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.header__list__link {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+}
+
+.header__list__link-contact {
+    color: #95459A;
+}
+
+.btn {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    background: #008752;
+    padding: 11px 40px;
+}
+
+.contact__list {
+    max-width: 380px;
+    height: 252px;
+    background: #008752;
+}
+
+.contact__title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.contact__adress {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.contact__list__phone {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.contact__list__link {
+    background: #95459A;
+}
+
+.footer {
+    background: #00559D;
+}
+
+.footer__title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 130%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
